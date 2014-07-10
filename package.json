@@ -1,0 +1,24 @@
+{
+  "name": "pollen",
+  "version": "0.0.1",
+  "description": "pollen",
+  "licence": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zertosh/pollen.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4",
+    "through2": "^0.5.1",
+    "underscore": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}

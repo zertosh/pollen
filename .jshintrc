@@ -1,0 +1,26 @@
+{
+  "bitwise": true,
+  "freeze": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "esnext": true,
+  "expr": true,
+  "immed": true,
+  "newcap": false,
+  "noarg": true,
+  "nonew": true,
+  "undef": true,
+
+  "strict": true,
+  "laxbreak": true,
+  "laxcomma": true,
+  "validthis": true,
+
+  "maxerr": 50,
+  "unused": true,
+
+  "browser": true,
+  "node": true,
+
+  "globals"  : {}
+}
