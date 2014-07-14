@@ -1,0 +1,1 @@
+var depA1 = require("./depA1");var depB = require("./depB");module.exports = { depA1: depA1, depB: depB };
