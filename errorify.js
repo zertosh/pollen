@@ -15,8 +15,12 @@ module.exports = function(b, opts) {
   b.bundle = function(cb) {
 
     var stream = through();
+    var eof = false;
 
     bundle(function(err, src) {
+
+      // When there is an error, we are called twice.
+      if (eof) return;
 
       if (err) {
         logger(chalk.red(err.toString()));
@@ -33,6 +37,8 @@ module.exports = function(b, opts) {
 
       stream.push(src);
       stream.push(null);
+
+      eof = true;
     });
 
     return stream;
