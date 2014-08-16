@@ -1,3 +1,9 @@
+0.0.5 / 2014-08-5
+==================
+
+    * Better "errorify" error handling
+    * Added "BundledModule"
+
 0.0.4 / 2014-08-5
 ==================
 
